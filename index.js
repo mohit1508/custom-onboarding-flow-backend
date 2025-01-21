@@ -13,4 +13,4 @@ app.use("/api/onboarding", onboardingRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/data", dataRoutes);
 
-app.listen(process.env.SERVER_PORT, () => console.log(`Server running on http://localhost:${process.env.SERVER_PORT}`));
+app.listen(process.env.SERVER_PORT, () => console.log(`Server running on port ${process.env.SERVER_PORT}`));

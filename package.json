@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.48.0",
