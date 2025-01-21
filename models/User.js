@@ -1,5 +1,5 @@
 const supabase = require('./db');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const saltRounds = 10;
 
 module.exports = {
@@ -35,7 +35,6 @@ module.exports = {
 
   // Get a user by email
   async getUserByEmail(email) {
-    console.log("inside getUserByEmail")
     const { data, error } = await supabase
       .from('users')
       .select('*')
