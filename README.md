@@ -51,9 +51,11 @@ npm install
 
 ### 3. Environment Variables
 Create a .env file in the root directory and add the following variables:
+```bash
 SUPABASE_URL=<your-supabase-url>
 SUPABASE_ANON_KEY=<your-supabase-anon-key>
 SERVER_PORT=3000
+```
 
 ### 4. Run the Development Server
 ```bash
